@@ -1,0 +1,16 @@
+flask
+flask-cors
+flask-socketio
+gunicorn
+python-dotenv
+pydub
+requests
+speechrecognition
+openai-whisper
+mysql-connector-python
+PyJWT
+passlib
+Flask-Bcrypt
+pytest
+
+
