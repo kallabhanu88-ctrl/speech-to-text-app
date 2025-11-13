@@ -22,6 +22,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 bcrypt = Bcrypt(app)
+model = whisper.load_model("tiny")  # instead of "base"
 
 # ✅ Logging setup (shows full error traceback in console)
 logging.basicConfig(level=logging.DEBUG)
